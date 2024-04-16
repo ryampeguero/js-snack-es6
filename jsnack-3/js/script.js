@@ -11,3 +11,21 @@ const automobili = [
     { marca: "Opel", modello: "Corsa", alimentazione: "gpl" }
   ];
 
+const benzina = [];
+const diesel = [];
+const resto = [];
+
+automobili.forEach((currElem, i)=>{
+    switch(currElem.alimentazione){
+        case "benzina":
+            benzina.push(currElem);
+            break;
+        case "diesel":
+            diesel.push(currElem);
+            break;
+        default:
+            resto.push(currElem);
+    }
+})
+
+console.log(benzina, diesel, resto);
