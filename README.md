@@ -25,8 +25,8 @@ Ogni persona ha un nome, un cognome e un’età.
 Crea quindi un nuovo array inserendo, per ogni persona, una frase con il nome e cognome e l’indicazione se può guidare, in base all’età.
 ### Svolgimento
 1. Creaimo un array di oggetti di persone
-2. Scorriamo l'array di persone e per ogni persona
-    - [ ] Creaimo un array
+2. Creaimo un array di stringhe.
+3. Scorriamo l'array di persone e per ogni persona
     - [ ] Inseriamo nel primo indice: `${nome, cognome}`
     - [ ] Nel secondo indice facciamo un confronto se età > 18
         - Può guidare
