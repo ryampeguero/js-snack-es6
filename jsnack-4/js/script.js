@@ -27,8 +27,8 @@ const persone = [
 const newArray = [];
 
 persone.forEach((currElem, i)=>{
-    const {nome, cognome} = currElem;
-    newArray[i] = `${nome} ${cognome} può? guidare ${puoGuidare(currElem.eta)}`
+    const {nome, cognome, eta} = currElem;
+    newArray[i] = `${nome} ${cognome} può? guidare ${puoGuidare(eta)}`
 });
 
 console.log(newArray);
