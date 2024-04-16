@@ -28,7 +28,7 @@ Crea quindi un nuovo array inserendo, per ogni persona, una frase con il nome e 
 2. Scorriamo l'array di persone e per ogni persona
     - [ ] Creaimo un array
     - [ ] Inseriamo nel primo indice: `${nome, cognome}`
-    - [ ]Nel secondo indice facciamo un confronto se età > 18
+    - [ ] Nel secondo indice facciamo un confronto se età > 18
         - Può guidare
         - [ ] Altrimenti
             - Non può guidare
