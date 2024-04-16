@@ -10,7 +10,7 @@ const bikes = [
     },
     {   
         name: "Hybrid Bike", 
-        weight: 12,
+        weight: 1,
     },
     {   
         name: "BMX Bike", 
@@ -25,7 +25,8 @@ let minorWeight = bikes.map((currElem)=>{
 
 console.log(minorWeight);
 
-const lowerValue = Math.min(...minorWeight);
+// const lowerValue = Math.min(...minorWeight);
+const lowerValue = minore(minorWeight);
 
 let result = "";
 bikes.forEach((currElem, i)=>{
@@ -42,3 +43,24 @@ bikes.forEach((currElem, i)=>{
     }
 })
 document.querySelector("body").innerHTML += result;
+
+
+
+
+function minore(myArray){
+    let valore=null;
+    myArray.forEach((currElem, i)=>{
+        if(valore != null){
+            if(valore > currElem){
+                valore = currElem;
+            }
+
+        }else{
+            valore = currElem;
+        }
+    })
+    return valore;
+}
+
+
+console.log("ciao", minore(minorWeight));
