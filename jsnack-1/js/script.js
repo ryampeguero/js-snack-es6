@@ -19,13 +19,11 @@ const bikes = [
     
 ];
 
-let minorWeight = [];
-let prova = null;
-bikes.forEach((currElem, i)=>{
-    const {name, weight} = bikes[i];
-    minorWeight[i] = weight;
-})
+let minorWeight = bikes.map((currElem)=>{
+    return currElem.weight
+});
 
+console.log(minorWeight);
 
 const lowerValue = Math.min(...minorWeight);
 
