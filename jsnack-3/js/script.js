@@ -14,7 +14,6 @@ const automobili = [
 const benzina = [];
 const diesel = [];
 const resto = [];
-
 automobili.forEach((currElem, i)=>{
     switch(currElem.alimentazione){
         case "benzina":
@@ -28,4 +27,21 @@ automobili.forEach((currElem, i)=>{
     }
 })
 
-console.log(benzina, diesel, resto);
+// OR
+
+// const benzina = automobili.filter((currElem, i)=>{
+//    if(currElem.alimentazione == "benzina")
+//     return true;
+// });
+// const diesel =  automobili.filter((currElem, i)=>{
+//     if(currElem.alimentazione == "benzina")
+//      return true;
+//  });
+
+// const resto =  automobili.filter((currElem, i)=>{
+//     if(currElem.alimentazione != "benzina" && currElem.alimentazione != "diesel")
+//      return true;
+//  });
+
+
+console.log("benzina", benzina, "diesel", diesel, resto);

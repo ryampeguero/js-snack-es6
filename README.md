@@ -9,14 +9,17 @@ Generare numeri random al posto degli 0 nelle proprietà:
 Punti fatti e falli subiti.
 Infine usando la destrutturazione creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
 
-## Snack3
+## :chocolate_bar: Snack3
 Crea un array composto da 4 automobili.
 Ogni oggetto automobile avrà le seguenti proprietà: marca, modello e alimentazione (benzina, diesel, gpl, elettrico, metano).
 Dividi le automobili in 3 array separati: nel primo array solo le auto a benzina, nel secondo solo le auto a diesel, nel terzo il resto delle auto.
 ### Svolgimento
-1. Creare array da oggeti auto
-2. Creare 3 array: benzina, diesel, resto
-3. Per ogni automobile controllare la sua alimentazione e inserire con switch nell'array giusto
+>1. Creare array da oggeti auto
+>2. Creare 3 array: benzina, diesel, resto
+>3. Per ogni automobile controllare la sua alimentazione e inserire con switch nell'array giusto
+
+
+## :chocolate_bar: Snack4
 
 
 >### :chocolate_bar: :star: Snack Bonus
