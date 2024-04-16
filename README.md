@@ -20,7 +20,18 @@ Dividi le automobili in 3 array separati: nel primo array solo le auto a benzina
 
 
 ## :chocolate_bar: Snack4
-
+Crea un array di oggetti che rappresentano delle persone.
+Ogni persona ha un nome, un cognome e un’età.
+Crea quindi un nuovo array inserendo, per ogni persona, una frase con il nome e cognome e l’indicazione se può guidare, in base all’età.
+### Svolgimento
+1. Creaimo un array di oggetti di persone
+2. Scorriamo l'array di persone e per ogni persona
+    - [ ] Creaimo un array
+    - [ ] Inseriamo nel primo indice: `${nome, cognome}`
+    - [ ]Nel secondo indice facciamo un confronto se età > 18
+        - Può guidare
+        - [ ] Altrimenti
+            - Non può guidare
 
 >### :chocolate_bar: :star: Snack Bonus
 >Scrivere una funzione che accetti tre argomenti, un array e due numeri (a più piccolo di b).
